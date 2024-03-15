@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferragem Zazá</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cooper-black" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-1">Ferragem Zazá</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a ferragem
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/loja.png" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a ferragem</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum debitis ipsam cumque ipsa nihil sit modi deserunt. Libero, dolor possimus officiis, non ut ullam provident a ex alias ipsa molestias!</p>
+                            <h3 class="section-title">Nossos <span class="text-colored">horários</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, repellendus odio excepturi ea laboriosam praesentium aliquam eligendi cum dolorem, doloremque adipisci. Numquam fugiat possimus voluptatum iste consequuntur libero voluptas consectetur!</p>
+                            <ul>
+                                <li><span class="fw-bold">Segunda a sexta:</span> 9h às 12h e 14h às 19h</li>
+                                <li><span class="fw-bold">Sábado:</span> 9h às 12h e 14h às 18h</li>
+                                <li><span class="fw-bold">Domingo:</span> 9h às 12h</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Serviços</h2>
+                </div>
+                <div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img src="images/servicos/materiais.jpg" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-wrench"></i>
+                                Materiais
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, exercitationem mollitia corrupti explicabo nam quasi optio nulla qui? Odit dolorum id ipsam. Recusandae inventore vitae ipsum eos animi blanditiis at!</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/servicos/impressoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-printer-fill"></i>
+                                Impressões e xerox
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, exercitationem mollitia corrupti explicabo nam quasi optio nulla qui? Odit dolorum id ipsam. Recusandae inventore vitae ipsum eos animi blanditiis at!</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/servicos/chaves.jpg" alt="" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-key-fill"></i>
+                                Cópias de chaves
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, exercitationem mollitia corrupti explicabo nam quasi optio nulla qui? Odit dolorum id ipsam. Recusandae inventore vitae ipsum eos animi blanditiis at!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Produtos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ferramentas" class="fw-bold text-start nav-link active">Ferramentas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#materiais" class="fw-bold text-start nav-link ">Materiais</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="ferramentas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/ferramentas/chaveinglesa.jpg" alt="Chave inglesa">
+                                        <h5 class="fw-bold mt-2">Chave inglesa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/ferramentas/martelo.jpg" alt="Martelo">
+                                        <h5 class="fw-bold mt-2">Martelo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="materiais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/materiais/parafuso.jpg" alt="Parafuso">
+                                        <h5 class="fw-bold mt-2">Parafusos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/materiais/prego.webp" alt="Prego">
+                                        <h5 class="fw-bold mt-2">Pregos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://www.facebook.com/ferragemzaza/">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="mailto:ferragemzaza@gmail.com">
+                                        <i class="bi bi-envelope-at-fill"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="https://wa.me/5551985465064">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Av. Martim Félix Berta, 2718, Porto Alegre, RS</p>
+                            <div class="iframe">
+                                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.1421057125053!2d-51.11601012367465!3d-30.032780730737173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197619087a9d4d%3A0x3d43abb1e50cf2e4!2sEstr.%20Martim%20F%C3%A9lix%20Berta%2C%202718%20-%20Rubem%20Berta%2C%20Porto%20Alegre%20-%20RS%2C%2091270-650!5e0!3m2!1spt-BR!2sbr!4v1709229496209!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
